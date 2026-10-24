@@ -1,0 +1,66 @@
+body {
+  font-family: system-ui, sans-serif;
+  background: #f4f5f7;
+  margin: 0;
+}
+
+.app {
+  max-width: 560px;
+  margin: 60px auto;
+  padding: 0 16px;
+  text-align: center;
+}
+
+.sub {
+  color: #555;
+}
+
+input {
+  width: 100%;
+  padding: 12px;
+  font-size: 16px;
+  box-sizing: border-box;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  margin-top: 12px;
+}
+
+button {
+  margin-top: 12px;
+  padding: 12px 28px;
+  font-size: 16px;
+  border: 0;
+  border-radius: 8px;
+  background: #2f5bea;
+  color: white;
+  cursor: pointer;
+}
+
+button:disabled {
+  opacity: 0.6;
+}
+
+.card {
+  margin-top: 24px;
+  padding: 16px;
+  border-radius: 10px;
+}
+
+.good {
+  background: #e6f6ec;
+  border: 1px solid #5cb97d;
+}
+
+.bad {
+  background: #fdeaea;
+  border: 1px solid #e06666;
+}
+
+.note {
+  font-size: 13px;
+  color: #555;
+}
+
+.error {
+  color: #c0392b;
+}

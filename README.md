@@ -3,6 +3,12 @@
 A web app that scores how likely a URL is to be phishing, using a character-level
 neural network (TensorFlow/Keras), a FastAPI backend and a React frontend.
 
+## Demo
+
+| Phishing link                                | Legitimate link                             |
+| -------------------------------------------- | ------------------------------------------- |
+| ![Phishing result](docs/phishing-result.png) | ![Legitimate result](docs/legit-result.png) |
+
 ## How it works
 
 1. The link is cleaned (lowercase, no scheme, no `www.`, no trailing slash).
